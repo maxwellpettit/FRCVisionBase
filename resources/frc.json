@@ -1,0 +1,42 @@
+{
+    "cameras": [{
+        "brightness": 50,
+        "exposure": 5,
+        "fps": 10,
+        "height": 240,
+        "name": "Vision",
+        "path": "/dev/video0",
+        "pixel format": "mjpeg",
+        "properties": [{
+                "name": "connect_verbose",
+                "value": 1
+            },
+            {
+                "name": "contrast",
+                "value": 50
+            },
+            {
+                "name": "saturation",
+                "value": 75
+            },
+            {
+                "name": "power_line_frequency",
+                "value": 1
+            },
+            {
+                "name": "sharpness",
+                "value": 50
+            },
+            {
+                "name": "backlight_compensation",
+                "value": 0
+            }
+        ],
+        "stream": {
+            "properties": []
+        },
+        "width": 320
+    }],
+    "ntmode": "client",
+    "team": 4145
+}
